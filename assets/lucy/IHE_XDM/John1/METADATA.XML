@@ -1,0 +1,145 @@
+<SubmitObjectsRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:oasis:names:tc:ebxml-regrep:xsd:lcm:3.0">
+  <RegistryObjectList xmlns="urn:oasis:names:tc:ebxml-regrep:xsd:rim:3.0">
+    <ExtrinsicObject id="f5d45d31-f704-4926-a3a1-a5916df79916" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>5e1d5e1d-869e-49a6-a958-c34ed5ce53d5</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20220520004919</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>21336241^^^&amp;1.2.840.114350.1.13.119.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|k130062604^^^&amp;1.2.840.114350.1.13.119.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Kelly^John^M^^^</Value>
+          <Value>PID-7|19760206</Value>
+          <Value>PID-8|M</Value>
+          <Value>PID-11|44 CORTLAND AVE^^SAN FRANCISCO^CA^94110-5410^USA</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0001.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>3318730</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>00dbfb178efde2cb03987e2fd896b8ffedf63abd</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="df3c90ad-edb7-4664-be04-28b0077861c8" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="f5d45d31-f704-4926-a3a1-a5916df79916">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Kaiser Permanente Northern California</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="516bee9b-dcd4-41c5-8cb7-418d2c9ad676" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="f5d45d31-f704-4926-a3a1-a5916df79916" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="47e25f4a-1ebf-480b-bbee-8af576a33e16" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="f5d45d31-f704-4926-a3a1-a5916df79916" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="47f1d537-6dad-4613-8442-b853efe444ea" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="f5d45d31-f704-4926-a3a1-a5916df79916" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="6da280d1-e5ae-4319-9b9c-781b75ec8784" lid="urn:uuid:87f521d7-81a8-49ad-af85-21fd3e9043d2" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="f5d45d31-f704-4926-a3a1-a5916df79916" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="21336241^^^&amp;1.2.840.114350.1.13.119.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="9c3f1454-b8b1-4e95-ad36-fe67c13c5b13" lid="urn:uuid:84ceccf8-0307-46fe-bffa-5df98dff0546" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="f5d45d31-f704-4926-a3a1-a5916df79916" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.119.2.7.2.876870.21336241.637885793589049525.1">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <RegistryPackage id="SubmissionSet" lid="urn:uuid:2032431b-5693-4c07-a256-7693afb3fd45" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:RegistryPackage" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+      <Slot name="submissionTime">
+        <ValueList>
+          <Value>20220520004918</Value>
+        </ValueList>
+      </Slot>
+      <Name>
+        <LocalizedString charset="UTF-8" value="Submission Set" />
+      </Name>
+      <Classification id="6bdf2a7e-3ef2-4c45-9356-0eee5750dd2b" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a7058bb9-b4e4-4307-ba5b-e3f0ab85e12d" classifiedObject="SubmissionSet">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Kaiser Permanente Northern California</Value>
+          </ValueList>
+        </Slot>
+        <Slot name="authorPerson">
+          <ValueList>
+            <Value>98.0^Epic - Version 98.0</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <ExternalIdentifier id="5c827b16-0bdb-4bf0-851c-c3fe48b2306c" lid="urn:uuid:fb99a7ce-548b-495a-be9e-95d7391e3a67" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="SubmissionSet" identificationScheme="urn:uuid:6b5aea1a-874d-4603-a4bc-96a0a7b38446" value="21336241^^^&amp;1.2.840.114350.1.13.119.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSSubmissionSet.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="a884e55a-aaa6-48c0-9f35-b6e04c47fc25" lid="urn:uuid:785dbfce-3605-41b3-8842-a24945489b45" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="SubmissionSet" identificationScheme="urn:uuid:554ac39e-e3fe-47fe-b233-965d2a147832" value="1.2.840.114350.1.13.119.2.7.2.876870">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSSubmissionSet.sourceId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="a1ab5c14-6bdd-4178-bfc7-0e74e7da1a70" lid="urn:uuid:dab13436-fd16-4d61-bb2b-3798f9bb99b5" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="SubmissionSet" identificationScheme="urn:uuid:96fdda7c-d067-4183-912e-bf5ee74998a8" value="1.2.840.114350.1.13.119.2.7.2.876870.21336241.637885793589049525">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSSubmissionSet.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </RegistryPackage>
+    <Classification id="80ddca66-02a8-412d-b768-5127a24b8279" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="SubmissionSet" classificationNode="urn:uuid:a54d6aa5-d40d-43f9-88c5-b4633d873bdd" />
+    <Association id="e58bba4b-dd7b-45b6-a90d-04f67250cab3" lid="urn:uuid:57d9acf4-5eff-4178-be67-94761c7f8aa0" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="f5d45d31-f704-4926-a3a1-a5916df79916">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <ObjectRef id="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" />
+    <ObjectRef id="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" />
+    <ObjectRef id="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" />
+    <ObjectRef id="urn:uuid:41a5887f-8865-4c09-adf7-e362475b143a" />
+    <ObjectRef id="urn:uuid:f4f85eac-e6cb-4883-b524-f2705394840f" />
+    <ObjectRef id="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" />
+    <ObjectRef id="urn:uuid:f33fb8ac-18af-42cc-ae0e-ed0b0bdb91e1" />
+    <ObjectRef id="urn:uuid:cccf5598-8b07-4b77-a05e-ae952c785ead" />
+    <ObjectRef id="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" />
+    <ObjectRef id="urn:uuid:6b5aea1a-874d-4603-a4bc-96a0a7b38446" />
+    <ObjectRef id="urn:uuid:554ac39e-e3fe-47fe-b233-965d2a147832" />
+    <ObjectRef id="urn:uuid:96fdda7c-d067-4183-912e-bf5ee74998a8" />
+    <ObjectRef id="urn:uuid:aa543740-bdda-424e-8c96-df4873be8500" />
+    <ObjectRef id="urn:uuid:a54d6aa5-d40d-43f9-88c5-b4633d873bdd" />
+  </RegistryObjectList>
+</SubmitObjectsRequest>
